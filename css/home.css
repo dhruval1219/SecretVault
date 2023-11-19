@@ -1,0 +1,23 @@
+.heading{
+    padding: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.para{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 45px;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    background-color: #333;
+    color: white;
+}

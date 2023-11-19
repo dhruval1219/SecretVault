@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/css/foundation.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/js/foundation.min.js"></script> -->
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/navigationbar.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/checklist.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <center><div class="header">
+        <p class="static">SecretVault</p>
+    </div></center>
+
+    <!-- Navigation Bar --> 
+    <div class="topnav">
+        <a href="home.html" id="navElement">Home</a>
+        <a href="aboutme.html" id="navElement">About Me</a>
+        <a class="active" href="checklist.html" id="navElement">Checklist</a>
+        <a href="login.html" id="navElement">Log In</a>
+    </div>
+
+    <div class="grid-x">
+        <div id=sidebar class="cell small-12 medium-4 large-4">
+            <div class="subheading">SecretVault Pages</div>
+            <ul class="subcontent">
+                <li><b>Home page</b>: JavaScript and CSS for the typing animation</li>
+                <li><b>About me</b>: JQuery library for the UI element</li>
+                <li><b>Checklist</b>: JQuery library for the UI element</li>
+                <li><b>Login</b>: Implemented PHP for validating the login in MySQL DB and JavaScript for pop up alerts</li>
+                <li><b>Register</b>: Membership registration form. PHP is used to create an account and save the users info in MySQL DB and JavaScript pops up an alert if the login gets created successfully</li>
+                <li><b>View all logins</b>: PHP and MySQL </li>
+                <li><b>Add login</b>: Form submission: PHP processes the form and stores the login in the DB</li>
+                <li><b>Add secret key</b>: Form submission: PHP processes the form and stores the key in the DB</li>
+                <li><b>Add secret note</b>: Form submission: PHP processes the form and stores the note in the DB</li>        
+            </ul>
+        </div>
+        <div id=body class="cell small-12 medium-8 large-8">    
+            <div class="subheading">SecretVault Navigation</div>
+            <ul class="subcontent">
+                <li><b>Login</b></li>
+                <ul>
+                    <li>If you have an existing account then you can login directly</li>
+                    <li>If you dont have an account you need to register your account first and then you will be redirected to the login screen</li>
+                </ul>
+            </ul>
+            <ul class="subcontent">
+                <li><b>Viewing the secrets</b></li>
+                <ul>
+                    <li>This is the default page that you see once you login</li>
+                    <li>If this is your first time logging in then you will not see anything but if you are a returning user then you can see your stored secrets.</li>
+                </ul>
+            </ul>
+            <ul class="subcontent">
+                <li><b>Add secrets</b></li>
+                <ul>
+                    <li>Click on add login to store a credential that contains a user and password</li>
+                    <li>Secret key and secret note is similar howevever secret key is intended for storing product keys, activation key or something similar to that matter. Whereas secret key is used to store other secret notes such as social security number, secret questions for a specific logins, etc.</li>        
+                </ul>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

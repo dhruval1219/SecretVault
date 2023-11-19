@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/navigationbar.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <center><div class="header">
+        <p class="static">SecretVault</p>
+    </div></center>
+    
+    <!-- Navigation Bar -->
+    <div class="topnav">
+        <a href="home.html" id="navElement">Home</a>
+        <a href="aboutme.html" id="navElement">About Me</a>
+        <a href="checklist.html" id="navElement">Checklist</a>
+        <a class="active" href="login.html" id="navElement">Log In</a>
+    </div>
+
+    <!-- Login -->
+    <form action="login.php" method="POST">    
+        <div class="container">
+          <label for="uname"><b>Username</b></label><br>
+          <input type="text" placeholder="Enter Username" name="uname" required><br>
+      
+          <label for="psw"><b>Password</b></label><br>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <center><button type="submit">Login</button></center>
+          <center><button type="submit" onclick="window.location.href='register.html'">New User? Register</button></center>
+        </div>
+    </form>
+
+</body>
+
+</html>

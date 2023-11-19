@@ -1,0 +1,29 @@
+.cell {
+    padding: 10px;
+}
+#sidebar {
+    padding: 10px;
+}
+#body {
+    padding: 10px; 
+}
+
+.subheading{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: solid black;
+}
+
+.grid-x{
+    margin: 50px;
+}
+
+.subcontent{
+    padding: 10px;
+    margin-left: 15px;
+}
+
+li{
+    margin: 5px;
+}

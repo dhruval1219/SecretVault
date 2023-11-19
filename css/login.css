@@ -1,0 +1,45 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 2%;
+    background-color: white;
+    width: 40%;
+    border: solid lightgray;
+}
+
+.container button{
+    background-color: #807f7f;
+    color: white;
+    margin: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 40%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.container button:hover{
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+}
+
+.container input{
+    background-color: lightgray;
+    width: 95%;
+    height: 40px;
+    margin: 10px;
+    margin-right: 20px;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container label{
+    margin: 10px;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+}
